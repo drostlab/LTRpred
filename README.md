@@ -18,12 +18,12 @@ In detail, `LTRpred` will take any genome assembly file in `fasta` format as inp
 ![](vignettes/LTRfeatures.png)
 
 
-__Users can consult a comprehensive [Introduction](https://hajkd.github.io/LTRpred/articles/Introduction.html) to the `LTRpred` pipeline to get familiar with the tool.__
+__Users can consult a comprehensive [Introduction](https://drostlab.github.io/LTRpred/articles/Introduction.html) to the `LTRpred` pipeline to get familiar with the tool.__
 
 ## Install
 
 The fastest way to install `LTRpred` is via a [Docker container](https://hub.docker.com/r/drostlab/ltrpred).
-Please make sure to read the [detailed installation instructions](https://hajkd.github.io/LTRpred/articles/Introduction.html#installation) to be able to
+Please make sure to read the [detailed installation instructions](https://drostlab.github.io/LTRpred/articles/Introduction.html#installation) to be able to
 pass data to the container.
 
 ```bash
@@ -82,7 +82,7 @@ Please cite the following paper when using `LTRpred` for your own research:
 
 ### Quick Start
 
-The fastest way to generate a LTR retrotransposon prediction for a genome of interest (after [installing](https://hajkd.github.io/LTRpred/articles/Introduction.html) all prerequisite command line tools) is to use the
+The fastest way to generate a LTR retrotransposon prediction for a genome of interest (after [installing](https://drostlab.github.io/LTRpred/articles/Introduction.html) all prerequisite command line tools) is to use the
 `LTRpred()` function and relying on the default parameters. In the following example,
 a LTR transposon prediction is performed for parts of the Human Y chromosome.
 
@@ -96,7 +96,7 @@ When running your own genome, please specify `genome.file = "path/to/your/genome
 
 This tutorial introduces users to `LTRpred`:
 
-- [Introduction to LTRpred](https://hajkd.github.io/LTRpred/articles/Introduction.html)
+- [Introduction to LTRpred](https://drostlab.github.io/LTRpred/articles/Introduction.html)
 
 Users can also read the tutorials within ([RStudio](http://www.rstudio.com/)) :
 
@@ -105,7 +105,7 @@ library(LTRpred)
 browseVignettes("LTRpred")
 ```
 
-You can also find a list of all available `LTRpred` functions here: https://hajkd.github.io/LTRpred/reference/index.html
+You can also find a list of all available `LTRpred` functions here: https://drostlab.github.io/LTRpred/reference/index.html
 
 ### Studies that successfully used `LTRpred` to annotate functional retrotransposons
 
